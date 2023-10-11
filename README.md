@@ -1,2 +1,2 @@
 # py-pushover
-package to send notifications to devices using https://pushover.net
+Python package to send notifications to devices using the https://pushover.net Message API.
