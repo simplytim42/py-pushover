@@ -18,12 +18,12 @@ Sign up to https://pushover.net and generate a User Key and an API Token.
     ```python
     from py_pushover_client import PushoverAPIClient
 
-    pushover = PushoverAPIClient(
+    notification = PushoverAPIClient(
         api_token="api_token",
         user_key="user_key",
     )
 
-    pushover.send(title="Test", message="This is a test message")
+    notification.send(title="Test", message="This is a test message")
     ```
 
 3. Optionally, you can change the notification sound. This must be done before calling the `PushoverAPIClient.send()` method in order for the sound to be processed.
@@ -31,7 +31,7 @@ Sign up to https://pushover.net and generate a User Key and an API Token.
     A list of acceptable sound options can be found at https://pushover.net/api#sounds
 
     ```python
-    pushover.set_sound(sound="bugle")
+    notification.set_sound(sound="bugle")
 
-    pushover.send(title="Bugle Baby!", message="Stuff happened.")
+    notification.send(title="Bugle Baby!", message="Stuff happened.")
     ```
