@@ -1,4 +1,4 @@
-# py_pushover_client
+# py-pushover-client
 Python package to send notifications to devices using the Pushover Message API.
 
 ## Pre-Requisites
