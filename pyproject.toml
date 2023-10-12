@@ -23,4 +23,4 @@ dependencies = [
 
 
 [project.urls]
-"Homepage" = "https://github.com/simplytim42/py_pushover_client"
+"Homepage" = "https://github.com/simplytim42/py-pushover-client"
